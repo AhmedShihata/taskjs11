@@ -5,6 +5,8 @@ let cont = document.createElement("div")
 
 document.body.appendChild(par)
 par.appendChild(title)
+par.appendChild(cont)
+
 
     title.textContent = "Products"
     title.style.fontWeight = "bold"
@@ -100,7 +102,6 @@ data.forEach(product => {
     bod.appendChild(box)
     box.appendChild(pho)
     box.appendChild(btn)
-    par.appendChild(cont)
     cont.appendChild(card)
 
     
