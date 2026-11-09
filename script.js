@@ -1,5 +1,5 @@
+
 let par = document.createElement("div")
-// let ptit = document.createElement("header")
 let title = document.createElement("h1")
 let cont = document.createElement("div")
 
@@ -25,7 +25,6 @@ fetch("https://fakestoreapi.com/products").then((res)=>{
     console.log(data.length);
     console.log(data);
     
-    // let frag = document.createDocumentFragment()
 data.forEach(product => {
     
 
@@ -70,8 +69,8 @@ data.forEach(product => {
     tit.style.fontWeight = "70px"
 
     box.style.display = "flex";
-    box.style.justifyContent = "space-between"; // توزيع المسافة بين السعر والزر
-    box.style.alignItems = "center";           // محاذاة في المنتصف عمودياً
+    box.style.justifyContent = "space-between"; 
+    box.style.alignItems = "center";         
     box.style.marginTop = "auto";
 
     pho.style.marginTop = "auto"  
